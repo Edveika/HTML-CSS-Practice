@@ -10,9 +10,34 @@
   padding: 0.8rem 1.2rem;
   align-items: center;
   gap: 0.4rem;
+  margin-bottom: 0.8px;
 }
 
 .nav-heading-icon {
   width: 1.6rem;
   height: 1.6rem;
+}
+
+.tamo-phones {
+  background-color: #e14d4e;
+}
+
+.tamo-password {
+  background-color: #ec5152;
+}
+
+.tamo-kids {
+  background-color: #1571b4;
+}
+
+.tamo-test {
+  background-color: #b3ace5;
+}
+
+.tamo-sale {
+  background-color: #000;
+}
+
+.tamo-items {
+  background-color: #ffb81c;
 }
