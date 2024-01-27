@@ -1,0 +1,69 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem;
+}
+
+.header-components {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.user-settings {
+  display: flex;
+  align-items: center;
+}
+
+.gradient-separator {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #dd8d3e 0%,
+    #489ab2 50%,
+    #69b5ae 100%
+  );
+}
+
+.time-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.timer {
+  font-weight: bold;
+}
+
+.timer-icon {
+  font-weight: bold;
+}
+
+.header-text {
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: #86b3cb;
+}
+
+.header-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #86b3cb;
+}
+
+.gradient-separator {
+  padding: 0.4rem;
+}
+
+.dropdown-icon {
+  color: #86b3cb;
+}
+
+.student-settings {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
