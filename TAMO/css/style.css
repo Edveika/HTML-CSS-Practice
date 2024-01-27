@@ -12,6 +12,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   color: #686868;
+  background-color: #f1f2eb;
 }
 
 .header-name {
@@ -40,3 +41,27 @@ body {
 .btn--block {
   display: block;
 }
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.extra-info {
+  display: flex;
+}
+
+.extra-title {
+  display: flex;
+}
+
+footer {
+  background-color: #fff;
+  max-width: 120rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.8rem;
+}
+
