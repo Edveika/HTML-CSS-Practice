@@ -91,3 +91,8 @@ table {
   color: #86b3cb;
   font-weight: bold;
 }
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}

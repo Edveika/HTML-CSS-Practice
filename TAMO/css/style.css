@@ -93,3 +93,12 @@ footer {
   border-radius: 50%;
   margin-left: 5px;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #09c;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
