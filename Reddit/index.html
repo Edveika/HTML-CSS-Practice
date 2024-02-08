@@ -3,21 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reddit &dash; dive into anything</title>
+    <title>Reddit &dash; Dive into anything</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
     <header class="main-header">
-      <p>REDDIT</p>
+      <p class="header-title">REDDIT</p>
       <div class="search-container">
-        <input type="text" />
+        <ion-icon name="search-outline" class="header-icon"></ion-icon>
+        <input type="text" placeholder="Search Reddit" class="search-box" />
       </div>
       <div class="account">
-        <a href="">Get app </a>
-        <a href="">Log in</a>
-        <button>...</button>
+        <a href="#" class="btn-login">
+          <ion-icon name="qr-code-outline" class="header-icon"></ion-icon>
+          <span>Get app</span>
+        </a>
+        <a href="#" class="btn-login btn-cta">Log in</a>
+        <button class="btn btn-extra">...</button>
       </div>
     </header>
+    <main class="main-container">
+      <p>a</p>
+      <p>a</p>
+      <p>a</p>
+    </main>
   </body>
 </html>

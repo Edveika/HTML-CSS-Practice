@@ -5,10 +5,19 @@
 }
 
 body {
-  font-size: 62.5%;
-  /* color: #e8e6e3; */
+  font-family: Verdana, sans-serif;
+  color: #e8e6e3;
+  background-color: #0b1416;
 }
 
 html {
-  
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  width: 154rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 23.3rem 1fr 32rem;
 }
