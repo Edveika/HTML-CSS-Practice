@@ -8,6 +8,17 @@
   height: 56px;
 }
 
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 .header-icon {
   width: 2rem;
   height: 2rem;
@@ -67,7 +78,8 @@
   background-color: #223237;
 }
 
-.btn-cta:link, .btn-cta:visited {
+.btn-cta:link,
+.btn-cta:visited {
   background-color: #d93a00;
 }
 
