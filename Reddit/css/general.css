@@ -28,5 +28,5 @@ html {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 23.3rem 1fr 32rem;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }

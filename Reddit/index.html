@@ -34,34 +34,174 @@
     </header>
     <main class="main-container">
       <div class="navbar">
-        <div class="nav-category">
+        <div class="nav-item">
           <a href="#" class="btn-nav btn-nav-cta"
             ><ion-icon name="trending-up-outline" class="nav-icon"></ion-icon>
             <span>Popular</span></a
           >
         </div>
-        <div class="nav-popular">
+        <div class="nav-item">
+          <div class="nav-accordion">
+            <p class="accordion-heading">Recent</p>
+            <ion-icon
+              name="chevron-up-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
           <a href="#" class="btn-nav"
-            ><ion-icon name="desktop-outline" class="nav-icon"></ion-icon>
+            ><ion-icon
+              name="desktop-outline"
+              class="nav-icon subreddit-icon"
+            ></ion-icon>
             <span>r/1337</span></a
           >
           <a href="#" class="btn-nav"
-            ><ion-icon name="basketball-outline" class="nav-icon"></ion-icon>
+            ><ion-icon
+              name="basketball-outline"
+              class="nav-icon subreddit-icon"
+            ></ion-icon>
             <span>r/basketball</span></a
           >
           <a href="#" class="btn-nav"
-            ><ion-icon name="football" class="nav-icon"></ion-icon>
+            ><ion-icon
+              name="football"
+              class="nav-icon subreddit-icon"
+            ></ion-icon>
             <span>r/football</span></a
           >
         </div>
-        <div class="nav-recent"></div>
-        <div class="nav-topics"></div>
-        <div class="nav-resources"></div>
-        <div class="nav-popular-posts"></div>
-        <p>Reddit, Inc. &copy; 2024. All rights reserved.</p>
+        <div class="nav-item">
+          <div class="nav-accordion">
+            <p class="accordion-heading">Topics</p>
+            <ion-icon
+              name="chevron-up-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon
+                name="game-controller-outline"
+                class="accordion-icon"
+              ></ion-icon>
+              <p class="accordion-subheading">Gaming</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon
+                name="tennisball-outline"
+                class="accordion-icon"
+              ></ion-icon>
+              <p class="accordion-subheading">Sports</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon
+                name="bar-chart-outline"
+                class="accordion-icon"
+              ></ion-icon>
+              <p class="accordion-subheading">Business</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon name="card-outline" class="accordion-icon"></ion-icon>
+              <p class="accordion-subheading">Crypto</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon name="tv-outline" class="accordion-icon"></ion-icon>
+              <p class="accordion-subheading">Television</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <div class="nav-accordion">
+            <div class="accordion-title">
+              <ion-icon name="star-outline" class="accordion-icon"></ion-icon>
+              <p class="accordion-subheading">Celebrity</p>
+            </div>
+            <ion-icon
+              name="chevron-down-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <button class="more-btn">See more</button>
+        </div>
+        <div class="nav-item">
+          <div class="nav-accordion">
+            <p class="accordion-heading">Resources</p>
+            <ion-icon
+              name="chevron-up-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <a href="#" class="btn-nav"
+            ><ion-icon name="logo-reddit" class="nav-icon"></ion-icon>
+            <span>About Reddit</span></a
+          >
+          <a href="#" class="btn-nav"
+            ><ion-icon name="megaphone-outline" class="nav-icon"></ion-icon>
+            <span>Advertise</span></a
+          >
+          <a href="#" class="btn-nav"
+            ><ion-icon name="help-circle-outline" class="nav-icon"></ion-icon>
+            <span>Help</span></a
+          >
+          <a href="#" class="btn-nav"
+            ><ion-icon name="book-outline" class="nav-icon"></ion-icon>
+            <span>Blog</span></a
+          >
+          <a href="#" class="btn-nav"
+            ><ion-icon name="build-outline" class="nav-icon"></ion-icon>
+            <span>Careers</span></a
+          >
+          <a href="#" class="btn-nav"
+            ><ion-icon name="mic-outline" class="nav-icon"></ion-icon>
+            <span>Press</span></a
+          >
+          <button class="more-btn">See more</button>
+        </div>
+        <div class="nav-item">
+          <div class="nav-accordion">
+            <p class="accordion-heading">Popular posts</p>
+            <ion-icon
+              name="chevron-up-outline"
+              class="accordion-icon"
+            ></ion-icon>
+          </div>
+          <a href="#" class="btn-nav"> <span>English / Global</span></a>
+          <a href="#" class="btn-nav"> <span>Deutscth</span></a>
+          <a href="#" class="btn-nav"> <span>Espanol</span></a>
+          <a href="#" class="btn-nav"> <span>France</span></a>
+          <a href="#" class="btn-nav"> <span>Italian</span></a>
+          <a href="#" class="btn-nav"> <span>Portuguese</span></a>
+        </div>
+        <p class="copyright">Reddit, Inc. &copy; 2024. All rights reserved.</p>
       </div>
-      <p>a</p>
-      <p>a</p>
+      <div></div>
+      <div></div>
     </main>
   </body>
 </html>
