@@ -12,6 +12,10 @@
   border-bottom: 1px solid #ffffff1a;
 }
 
+.nav-item {
+  padding: 1rem 0;
+}
+
 .btn-nav:link,
 .btn-nav:visited,
 .btn-nav:hover,
@@ -89,7 +93,7 @@
 
 .copyright {
   display: inline-block;
-  padding: 0.5rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .more-btn {
