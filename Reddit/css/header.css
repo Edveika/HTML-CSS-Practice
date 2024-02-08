@@ -67,7 +67,7 @@
   background-color: #223237;
 }
 
-.btn-cta:link {
+.btn-cta:link, .btn-cta:visited {
   background-color: #d93a00;
 }
 
