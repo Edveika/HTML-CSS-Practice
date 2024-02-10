@@ -1,5 +1,39 @@
 .feed {
-  background-color: green;
+  /* background-color: green; */
   grid-column: 2;
-  padding: 0 10rem;
+  padding: 1rem 10rem;
+  /* border-bottom: 1px solid #ffffff1a; */
+}
+
+.post {
+  padding: 1rem 2rem;
+  border-radius: 11px;
+}
+
+.post:hover {
+  background-color: #131f23;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-subreddit {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.subreddit-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.time-ago {
+  color: #647579;
+}
+
+.post-img {
+  height: 55rem;
 }
