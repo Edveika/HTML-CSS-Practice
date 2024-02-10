@@ -1,3 +1,5 @@
 .feed {
   background-color: green;
+  grid-column: 2;
+  padding: 0 10rem;
 }

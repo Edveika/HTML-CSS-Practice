@@ -29,4 +29,5 @@ html {
   display: grid;
   grid-template-columns: 23.3rem 1fr 32rem;
   grid-template-rows: 21rem 1fr;
+  margin-top: 56px;
 }
