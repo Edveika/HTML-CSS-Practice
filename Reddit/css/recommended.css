@@ -1,0 +1,14 @@
+.recommended {
+  /* background-color: red; */
+  grid-column: 2/-1;
+  padding: 1rem 10rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.recommended-img {
+  width: 25%;
+  height: 19rem;
+  border-radius: 15px;
+}
