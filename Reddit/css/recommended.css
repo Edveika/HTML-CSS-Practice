@@ -1,9 +1,10 @@
 .recommended {
   /* background-color: red; */
   grid-column: 2/-1;
-  padding: 1rem 10rem;
+  padding: 1rem 0rem;
+  padding-left: 10rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -11,4 +12,10 @@
   width: 25%;
   height: 19rem;
   border-radius: 15px;
+  transition: all 300ms;
+  overflow: hidden;
+}
+
+.recommended-img:hover {
+  transform: scale(1.1);
 }

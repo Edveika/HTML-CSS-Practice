@@ -1,3 +1,16 @@
 .popular {
-  background-color:blueviolet;
+
+}
+
+.popular-communities {
+  background-color: #04090a;
+  /* background-color: red; */
+  padding: 1.5rem 2rem;
+  border-radius: 11px;
+}
+
+.popular-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
