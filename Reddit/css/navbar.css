@@ -32,6 +32,7 @@
   border-radius: 11px;
   font-size: 1.4rem;
   color: inherit;
+  transition: all 300ms;
 }
 
 .btn-nav:hover,

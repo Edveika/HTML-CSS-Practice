@@ -8,6 +8,14 @@
 .post {
   padding: 1rem 2rem;
   border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: all 500ms;
+}
+
+.post:hover {
+  transform: scale(1.01);
 }
 
 .post:hover {
@@ -36,4 +44,29 @@
 
 .post-img {
   height: 55rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.action-box {
+  display: flex;
+  gap: 0.5rem;
+  background-color: #1a282d;
+  border-radius: 9999px;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.actions-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.action-text {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
