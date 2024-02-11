@@ -11,6 +11,10 @@
   top: 70px;
   align-self: flex-start;
   width: 32rem;
+  transition: all 300ms;
+}
+.popular-communities:hover {
+  transform: scale(1.02);
 }
 
 .popular-header {
