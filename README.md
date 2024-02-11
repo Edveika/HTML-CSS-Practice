@@ -5,6 +5,7 @@ Because practice makes perfect!
 # 🏗️ Sites remade
 
 * [TAMO](https://github.com/Edveika/Web-FrontEnd-Practice/blob/main/tamo.md)
+* [Reddit](https://github.com/Edveika/Web-FrontEnd-Practice/blob/main/reddit.md)
 
 # 📜 License
 
