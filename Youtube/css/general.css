@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b0c0d;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 21.6rem 1fr;
+}
+
+.youtube-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: red;
+}
