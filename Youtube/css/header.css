@@ -39,7 +39,7 @@
 .search-box {
   background-color: #0e0f0f;
   border: 1px solid hsl(0,0%,18.82%);
-  padding: 0.8rem 1.6rem;
+  padding: 0.3rem 1.6rem;
   border-radius: 9999px;
   display: flex;
   align-items: center;

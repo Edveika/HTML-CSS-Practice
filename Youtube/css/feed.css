@@ -1,2 +1,9 @@
 .feed-container {
+  padding: 0 1.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.thumbnail {
+  width: 31rem;
 }
