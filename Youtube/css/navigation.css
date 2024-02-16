@@ -1,6 +1,8 @@
 .nav-container {
   padding: 0 1.6rem;
   overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
   height: calc(100vh - 7rem);
   position: sticky;
   top: 5.6rem;
