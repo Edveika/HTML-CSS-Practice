@@ -1,2 +1,41 @@
 .nav-container {
+  padding: 0 1.6rem;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.nav-item {
+  padding: 1.5rem 0;
+}
+
+.nav-item:not(:last-child) {
+  border-bottom: 1px solid hsl(0, 0%, 18.82%);
+}
+
+.btn-nav:link,
+.btn-nav:visited {
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 11px;
+  font-size: 1.4rem;
+}
+
+.btn-nav:hover,
+.btn-nav:active {
+  background-color: rgb(24, 26, 27);
+}
+
+.nav-heading {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.copyright {
+  color: #a1988c;
+  font-size: 1.2rem;
 }
