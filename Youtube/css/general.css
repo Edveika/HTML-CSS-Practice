@@ -25,3 +25,25 @@ html {
   height: 2.4rem;
   color: red;
 }
+
+.btn {
+  border: none;
+  padding: 0.8rem 0.8rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  height: 4rem;
+  width: 4rem;
+}
+
+.btn:hover {
+  background-color: rgb(24, 26, 27);
+}
+
+.general-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #fff;
+}

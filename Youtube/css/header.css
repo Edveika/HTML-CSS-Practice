@@ -1,6 +1,8 @@
 .main-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.6rem;
 }
 
 .logo-container {
@@ -12,4 +14,42 @@
   display: flex;
   gap: 0.5rem;
   align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 40%;
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-box {
+  background-color: #0e0f0f;
+  border: 1px solid hsl(0,0%,18.82%);
+  padding: 0.8rem 1.6rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.youtube-title {
+  font-weight: bold;
+}
+
+.search-box input {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  width: 100%;
+}
+
+.search-box input:focus {
+  outline: none;
 }
