@@ -36,6 +36,7 @@ html {
   background-color: inherit;
   height: 4rem;
   width: 4rem;
+  transition: all 300ms;
 }
 
 .btn:hover {
