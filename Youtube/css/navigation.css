@@ -36,6 +36,10 @@
   background-color: rgb(24, 26, 27);
 }
 
+.btn-nav-active {
+  background-color: rgb(24, 26, 27);
+}
+
 .nav-heading {
   margin-bottom: 1rem;
   font-size: 1.6rem;
