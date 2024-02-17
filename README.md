@@ -6,6 +6,7 @@ Because practice makes perfect!
 
 * [TAMO](https://github.com/Edveika/Web-FrontEnd-Practice/blob/main/tamo.md)
 * [Reddit](https://github.com/Edveika/Web-FrontEnd-Practice/blob/main/reddit.md)
+* [YouTube](https://github.com/Edveika/Web-FrontEnd-Practice/blob/main/youtube.md)
 
 # 📜 License
 
