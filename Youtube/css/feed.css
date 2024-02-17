@@ -1,4 +1,6 @@
 .feed-container {
+  grid-row: 2;
+  grid-column: 2;
   padding: 0 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

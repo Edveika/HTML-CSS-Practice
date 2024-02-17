@@ -18,6 +18,7 @@ html {
 .main-container {
   display: grid;
   grid-template-columns: 24rem 1fr;
+  grid-template-rows: 5.6rem 1fr;
 }
 
 .youtube-logo {
