@@ -7,6 +7,8 @@
 .thumbnail {
   width: 31rem;
   border-radius: 11px;
+  display: inline-block;
+  margin: 0 auto;
   margin-bottom: 1rem;
 }
 
@@ -16,4 +18,43 @@
 .video-link:active {
   text-decoration: none;
   color: #fff;
+}
+
+.post {
+  transition: all 300ms;
+  overflow: hidden;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post-details {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.post-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+}
+
+.stats-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.stats-text {
+  color: #9f9f9f;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+.post-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
