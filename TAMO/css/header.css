@@ -48,6 +48,10 @@
   color: #86b3cb;
 }
 
+.btn-mobile-nav {
+  display: none;
+}
+
 .header-icon {
   width: 3.2rem;
   height: 3.2rem;
