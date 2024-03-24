@@ -8,4 +8,4 @@
 
 # 📱 Mobile version
 
-![Screenshot from 2024-03-24 17-34-05](https://github.com/Edveika/HTML-CSS-Practice/assets/113787144/f6b4cc82-d8fa-427e-a714-d1a5f3a68cc1)
+![reddit_mobile](https://github.com/Edveika/HTML-CSS-Practice/assets/113787144/d2c75adc-9b86-4999-a23a-06f72ff7ef59)
