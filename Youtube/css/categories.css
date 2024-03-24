@@ -7,6 +7,9 @@
   z-index: 999999;
   top: 7rem;
   background-color: #0b0c0d;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  justify-content: start;
 }
 
 .btn-category {
