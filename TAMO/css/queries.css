@@ -1,0 +1,35 @@
+@media (max-width: 35em) {
+  nav {
+    display: none;
+  }
+
+  .time-table {
+    grid-column: 1/-1;
+  }
+
+  .user-settings {
+    display: none;
+  }
+
+  .extra-info {
+    display: none;
+  }
+
+  .header-components {
+    gap: 1rem;
+  }
+
+  .header-text {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 32em) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
