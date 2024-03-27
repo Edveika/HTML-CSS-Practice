@@ -1,5 +1,7 @@
 # ▶️ Youtube
 
+**[PREVIEW LIVE](https://edveika-youtube.netlify.app/)**
+
 [Code](https://github.com/Edveika/Web-FrontEnd-Practice/tree/main/Youtube)
 
 # 🖥 Desktop version
