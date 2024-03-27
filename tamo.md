@@ -1,5 +1,7 @@
 # 🦉 TAMO
 
+**[PREVIEW LIVE](https://edveika-tamo.netlify.app/)**
+
 [Code](https://github.com/Edveika/Web-FrontEnd-Practice/tree/main/TAMO)
 
 # 🖥 Desktop version
