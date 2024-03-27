@@ -1,5 +1,7 @@
 # 💥 Reddit
 
+**[PREVIEW LIVE](https://edveika-reddit.netlify.app/)**
+
 [Code](https://github.com/Edveika/Web-FrontEnd-Practice/tree/main/Reddit)
 
 # 🖥 Desktop version
