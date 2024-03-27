@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-link:link,
+.nav-link:hover,
+.nav-link:visited,
+.nav-link:active {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 2.5rem;
+}
+
+.nav-link:not(:last-child) {
+  margin-bottom: 2rem;
+}
